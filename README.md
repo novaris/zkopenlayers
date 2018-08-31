@@ -2,36 +2,26 @@
 [ZK](https://github.com/zkoss/zk) wrapper for [OpenLayers 2](https://github.com/openlayers/openlayers), an industry
 standard JS library for embedding interactive maps in web applications.
 
-This project enables you to create Maps, Layers, and Features in Java or ZUL, with server side event handling and updates.
+This project enables you to create Maps, Layers, and Features in Java or ZUL, with server side event handling and updates and run on iDempiere ERP whith Business Theme
 
 ## Download
 
 #### Maven
 
     <dependency>
-    	<groupId>org.zkoss</groupId>
+    	<groupId>ru.novaris</groupId>
     	<artifactId>zkopenlayers</artifactId>
-    	<version>1.0.0</version>
+    	<version>1.0.2</version>
     </dependency>
 
 #### Gradle
 
-    runtime group: 'org.zkoss', name: 'zkopenlayers', version: '1.0.0'
-
-## Demo
-
-A small demo app is included to showcase functionality and use. To run the demo with Maven, start Jetty:
-
-    mvn jetty:run
-
-and navigate to [http://localhost:8080/zkopenlayers/](http://localhost:8080/zkopenlayers/)
-
-[Demo Video](http://www.screencast.com/t/spIib4Mm)
+    runtime group: 'ru.novaris', name: 'zkopenlayers', version: '1.0.2'
 
 ## Quick Start
 
 ## ZK Version
-Applicable to ZK 6.0.0 and later.
+Applicable to iDempiere 5.1 and later.
 
 
 ##Project License
