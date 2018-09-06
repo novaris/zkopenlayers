@@ -8,34 +8,26 @@
 
     <packaging>jar</packaging>
     <name>org.zkoss.zkopenlayers</name>
-    <description>ZK wrapper for OpenLayers 2</description>
-    <url>https://github.com/connollyst/zkopenlayers</url>
+    <description>ZK wrapper for OpenLayers 2 for Idempiere</description>
+    <url>https://github.com/novaris/zkopenlayers</url>
 
     <scm>
-        <url>https://github.com/connollyst/zkopenlayers</url>
+        <url>https://github.com/novaris/zkopenlayers</url>
         <connection>
-            scm:git:git://github.com/connollyst/zkopenlayers.git
+            scm:git:git://github.com/novaris/zkopenlayers.git
         </connection>
         <developerConnection>
-            scm:git:git@github.com:connollyst/zkopenlayers.git
+            scm:git:git@github.com:novaris/zkopenlayers.git
         </developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <developers>
         <developer>
-            <id>jumperchen</id>
-            <name>Jumper Chen</name>
-        </developer>
-        <developer>
-            <id>kubakudla</id>
-            <name>Jakub Kudla</name>
-        </developer>
-        <developer>
-            <id>connollyst</id>
-            <name>Sean Connolly</name>
-            <email>connolly.st@gmail.com</email>
-            <url>http://sean.connolly.rocks</url>
+            <id>novaris</id>
+            <name>Evgeny Kurensky</name>
+            <email>support@novaris.ru</email>
+            <url>https://www.novaris.ru</url>
         </developer>
     </developers>
 
