@@ -48,6 +48,7 @@ public class Marker extends OLWidget {
 		getNativeObject().invoke("setOpacity", opacity);
 	}
 
+	
 	@Override
 	protected void setMap(Openlayers map) {
 		throw new UnsupportedOperationException(
